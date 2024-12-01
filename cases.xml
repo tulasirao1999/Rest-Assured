@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Automation Suite">
+
+
+    <test name="TestAPI">
+        <classes>
+            <!-- Define test classes -->
+            <class name="com.api.JsonPlaceHolderCases.Users.Test01"/>
+            <class name="com.api.JsonPlaceHolderCases.Users.Test02"/>
+            <class name="com.api.JsonPlaceHolderCases.Users.Test03"/>
+            <class name="com.api.JsonPlaceHolderCases.Users.Test04"/>
+            <class name="com.api.JsonPlaceHolderCases.Users.Test05"/>
+            <class name="com.api.JsonPlaceHolderCases.Posts.Test01"/>
+            <class name="com.api.JsonPlaceHolderCases.Posts.Test02"/>
+            <class name="com.api.JsonPlaceHolderCases.Posts.Test03"/>
+            <class name="com.api.JsonPlaceHolderCases.Posts.Test04"/>
+            <class name="com.api.JsonPlaceHolderCases.Posts.Test05"/>
+            <class name="com.api.JsonPlaceHolderCases.comments.Test01"/>
+            <class name="com.api.JsonPlaceHolderCases.comments.Test02"/>
+
+
+            <!-- Additional test cases -->
+        </classes>
+    </test>
+
+    <!-- Additional tests can be added here -->
+    <test name="TestDataDriven">
+        <classes>
+            <class name="com.api.DataDrivenCases"/>
+        </classes>
+    </test>
+</suite>
